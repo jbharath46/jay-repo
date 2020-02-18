@@ -1,4 +1,4 @@
-package web.mavenwebapp;
+package springboot.webservice;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
