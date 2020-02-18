@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-@RequestMapping("/")
+@RequestMapping("/home")
 public String home() {
 return "Maven build with openshift!";
 }
