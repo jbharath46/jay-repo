@@ -21,6 +21,6 @@ public class SimpleMicroservice{
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringExampleApplication.class, args);
+		SpringApplication.run(SimpleMicroservice.class, args);
 	}
 }
