@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-example</name>
+	<name>maven-git-project</name>
 	<description>Try maven deployement in Openshift</description>
 
 	<parent>
