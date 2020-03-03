@@ -17,7 +17,7 @@ public class SimpleMicroservice{
 
 	@GetMapping("/{input}")
 	public String congrats(@PathVariable String input) {
-		return "Hello " + input + "!! ,  Build and deployment successfull.";
+		return "<font size=14>Hello " + input + ,"!! <br><br><br><br>  <b> Build and deployment successfull.</b></font>";
 	}
 
 	public static void main(String[] args) {
