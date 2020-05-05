@@ -16,7 +16,7 @@ public class SimpleMicroservice{
 	}
 
 	@GetMapping("/api/greetings/v1")
-	public String congrats() {
+	public String greetings() {
 		return "Hi ,Greetings !!";
 	}
 
