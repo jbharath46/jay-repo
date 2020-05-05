@@ -16,8 +16,8 @@ public class SimpleMicroservice{
 	}
 
 	@GetMapping("/api/greetings/v1")
-	public String congrats(@PathVariable String input) {
-		return "Greetings !!";
+	public String congrats() {
+		return "Hi ,Greetings !!";
 	}
 
 	public static void main(String[] args) {
