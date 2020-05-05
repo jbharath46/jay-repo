@@ -12,12 +12,12 @@ public class SimpleMicroservice{
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "<font size=6><b>Welcome !</b></font>";
+		return "Welcome !!!</font>";
 	}
 
 	@GetMapping("/api/greetings/v1")
 	public String congrats(@PathVariable String input) {
-		return "<font size=6>!! <b>{ Greetings !! }</b></font>";
+		return "Greetings !!";
 	}
 
 	public static void main(String[] args) {
